@@ -14,7 +14,7 @@ Requisitos:
 const prompt = require('prompt-sync')();
 
 //solicito al usuario que ingrese su nombre
-nombre = prompt("Ingrese su nombre: ");
+let nombre = prompt("Ingrese su nombre: ");
 
 //muestro mensaje personalizado
 console.log(`Hola ${nombre}!! :D ​`)

@@ -16,7 +16,7 @@ verificaciones.
 const prompt = require('prompt-sync')();
 
 //solicito al usuario que ingrese un número
-numeroIngresado = parseFloat(prompt("Ingrese un numero: "));
+let numeroIngresado = parseFloat(prompt("Ingrese un numero: "));
 
 //verifico e informo
 if (numeroIngresado<0) {

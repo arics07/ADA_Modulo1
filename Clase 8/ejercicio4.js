@@ -16,7 +16,7 @@ por 2.
 const prompt = require('prompt-sync')();
 
 //solicito al usuario que ingrese un número entero
-numeroIngresado = parseInt(prompt("Ingrese un numero entero: "));
+let numeroIngresado = parseInt(prompt("Ingrese un numero entero: "));
 
 //verifico e informo
 if (numeroIngresado%2===0){

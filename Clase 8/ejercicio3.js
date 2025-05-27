@@ -16,10 +16,10 @@ Requisitos:
 const prompt = require('prompt-sync')();
 
 //solicito al usuario que ingrese un número
-primerNumero = parseFloat(prompt("Ingrese el primer numero: "));
+let primerNumero = parseFloat(prompt("Ingrese el primer numero: "));
 
 //solicito al usuario que ingrese otro número
-segundoNumero = parseFloat(prompt("Ingrese el segundo numero: "));
+let segundoNumero = parseFloat(prompt("Ingrese el segundo numero: "));
 
 //calculo
 let suma = primerNumero + segundoNumero;

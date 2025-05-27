@@ -16,7 +16,7 @@ Requisitos:
 const prompt = require('prompt-sync')();
 
 //solicito al usuario que ingrese un número
-numeroIngresado = parseFloat(prompt("Ingrese un numero: "));
+let numeroIngresado = parseFloat(prompt("Ingrese un numero: "));
 
 //calculo el doble del número ingresado
 let doble = numeroIngresado*2;
