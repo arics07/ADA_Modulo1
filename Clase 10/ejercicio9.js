@@ -1,5 +1,6 @@
 /*
-•	Ejercicio 9: Cálculo del IMC: Escribe un programa que calcule el Índice de Masa Corporal (IMC). El IMC se calcula con la fórmula: 
+•	Ejercicio 9: Cálculo del IMC: Escribe un programa que calcule el Índice de Masa Corporal (IMC). 
+El IMC se calcula con la fórmula: 
 
  imc = peso / (altura * altura)
 
