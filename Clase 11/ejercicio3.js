@@ -10,7 +10,7 @@ Usa un ciclo for para realizar la tarea.
 //para poder ingresar informacion por teclado
 const prompt = require('prompt-sync')();
 
-let numero = parseFloat(prompt("Ingrese un número: "));
+let numero = parseInt(prompt("Ingrese un número: "));
 
 for (var i=1; i<=numero; i++){
     console.log(i)
