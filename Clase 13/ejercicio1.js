@@ -5,9 +5,8 @@ la base y la altura de un triángulo. La función debe devolver el área del tri
 */
 
 function calcularAreaTriangulo(base, altura){
-    console.log(base*altura/2)
     return (base*altura/2)
 };
 
 
-calcularAreaTriangulo(10, 8);
+console.log(calcularAreaTriangulo(10, 8));
